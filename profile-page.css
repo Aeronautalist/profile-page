@@ -1,0 +1,123 @@
+html,
+body {
+  height: 100%;
+  font-family: "Roboto Flex", sans-serif;
+}
+
+html {
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.header-display {
+  width: 100%;
+  height: 500px;
+  border-radius: 24px;
+  background-image: url(./assets/valley.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.profile-picture-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  top: 200px;
+  max-width: 400px;
+  font-family: "Dancing Script", cursive;
+  font-size: 48px;
+  color: white;
+}
+
+.headshot {
+  max-height: 200px;
+  border-radius: 50%;
+  border: 2px solid #b7410e;
+  margin: auto;
+  position: relative;
+  top: 290px;
+  display: block;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.background-section {
+  background: linear-gradient(#6b797b 80%, white 20%);
+  margin-top: 24px;
+  width: 100%;
+  color: white;
+}
+
+.section-header {
+  font-family: "Dancing Script", cursive;
+}
+
+.card-holder {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  padding: 4px;
+  background-color: white;
+  color: black;
+  border: 2px solid;
+  border-radius: 12px;
+}
+
+.card-header {
+  min-height: 180px;
+}
+
+.card-icon {
+  height: 48px;
+}
+
+#soft-skills-card {
+  border-color: #3de31a;
+
+  hr {
+    color: #3de31a;
+  }
+}
+
+#developer-card {
+  border-color: #b7410e;
+
+  hr {
+    color: #b7410e;
+  }
+}
+
+#leadership-card {
+  border-color: #0e4cb7;
+
+  hr {
+    color: #0e4cb7;
+  }
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.projects-section {
+  color: white;
+  width: 100%;
+  background-color: #6b797b;
+}
